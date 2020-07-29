@@ -1,0 +1,31 @@
+{
+  "name": "node-express",
+  "version": "1.0.0",
+  "description": "practice node express",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "mode": "development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/june50232/node-express.git"
+  },
+  "author": "june",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/june50232/node-express/issues"
+  },
+  "homepage": "https://github.com/june50232/node-express#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/register": "^7.10.5",
+    "webpack": "^4.44.0",
+    "webpack-cli": "^3.3.12"
+  }
+}
