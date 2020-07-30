@@ -13,6 +13,7 @@ practice node express and frontend preprocess
 
 ### webpack.config.js
 > 參考：https://thedeployguy.com/2020-06-07-getting-to-know-webpack/
+> 參考：https://www.valentinog.com/blog/babel/
 
 ### 其他學習
 

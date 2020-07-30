@@ -2,11 +2,13 @@
   "name": "node-express",
   "version": "1.0.0",
   "description": "practice node express",
-  "main": "webpack.config.js",
+  "main": "app-webpack.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "mode": "development"
+    "mode": "development",
+    "start": "node app-webpack.js",
+    "dev": "webpack --mode development && node app-webpack.js"
   },
   "repository": {
     "type": "git",
@@ -19,12 +21,19 @@
   },
   "homepage": "https://github.com/june50232/node-express#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "path": "^0.12.7",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   },
   "devDependencies": {
     "@babel/core": "^7.10.5",
     "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
     "@babel/register": "^7.10.5",
+    "babel-loader": "^8.1.0",
+    "html-loader": "^1.1.0",
+    "html-webpack-plugin": "^4.3.0",
     "webpack": "^4.44.0",
     "webpack-cli": "^3.3.12"
   }

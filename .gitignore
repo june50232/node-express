@@ -1,0 +1,14 @@
+node_modules/*
+npm-debug.log
+dist
+build
+/stderr.log
+/stdout.log
+coverage
+/nohup.out
+.idea
+config.js
+.DS_Store
+reports/*
+uploads/*
+*.log
