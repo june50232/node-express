@@ -4,8 +4,8 @@
 const express = require('express')
 const app = express()
 const path = require('path')
-const DIST_DIR = path.join(__dirname, '../dist'); // NEW
-const HTML_FILE = path.join(DIST_DIR, 'index.html'); // NEW
+const DIST_DIR = path.join(__dirname, 'dist');
+const HTML_FILE = path.join(DIST_DIR, 'index.html');
 const port = 3000
 
 app.use(express.static(DIST_DIR))

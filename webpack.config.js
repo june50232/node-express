@@ -6,7 +6,7 @@ module.exports = {
     // this is where it starts to crawl your repository
     // to build a dependency graph to know
     // what it should and shouldn’t include in your bundle
-    entry: './src/index.jsx',
+    entry: './src/components/index.jsx',
     output: {
         path: path.join(__dirname, 'dist'), // __dirname - is the current directory name
         //publicPath: '/',

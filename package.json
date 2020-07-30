@@ -2,13 +2,13 @@
   "name": "node-express",
   "version": "1.0.0",
   "description": "practice node express",
-  "main": "app-webpack.js",
+  "main": "app-webpack-react.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
     "mode": "development",
-    "start": "node app-webpack.js",
-    "dev": "webpack --mode development && node app-webpack.js"
+    "start": "node app-webpack-react.js",
+    "dev": "webpack --mode development && node app-webpack-react.js"
   },
   "repository": {
     "type": "git",

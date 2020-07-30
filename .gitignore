@@ -12,3 +12,4 @@ config.js
 reports/*
 uploads/*
 *.log
+.babelrc
