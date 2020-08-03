@@ -2,6 +2,7 @@ node_modules/*
 npm-debug.log
 dist
 build
+public
 /stderr.log
 /stdout.log
 coverage
