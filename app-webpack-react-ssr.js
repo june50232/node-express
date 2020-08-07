@@ -1,13 +1,13 @@
 import express from 'express'
 import React from 'react'
-import { renderToString } from 'react-dom/server'
-import Home from './client/components/Home'
+import ReactDOMServer from 'react-dom/server'
+import App from './src/client/components/App.js'
 
 const app = express()
 
-app.use(express.static("src"))
+app.use(express.static("public"))
 app.get('/', (req, res) => {
-    const content = renderToString(<Home />)
+    const content = ReactDOMServer.renderToString(<App />)
 
     const html = `
         <html>
